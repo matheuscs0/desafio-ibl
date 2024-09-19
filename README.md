@@ -34,8 +34,7 @@ O **BookHub** é uma aplicação web desenvolvida como um teste para a empresa I
 
 Crie um arquivo .env e configure suas credenciais de banco de dados:
 
-env
-Copiar código
+.env
 DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
 DB_PORT=5432
