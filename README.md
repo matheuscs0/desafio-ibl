@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-O **BookHub** é uma aplicação web desenvolvida como um teste para a empresa IBL Logística. A plataforma permite que os usuários cadastrem, visualizem e pesquisem livros de forma simples e intuitiva. Utilizando o Laravel como backend e Tailwind CSS para o frontend, o projeto foi criado para demonstrar habilidades em desenvolvimento web e gerenciamento de dados.
+O **BookHub** é uma aplicação web desenvolvida como um teste para a empresa IBL Logística. A plataforma permite que os usuários cadastrem, visualizem e pesquisem livros de forma simples e intuitiva. Utilizando o Laravel como backend e JavaScript para o frontend, o projeto foi criado para demonstrar habilidades em desenvolvimento web e gerenciamento de dados.
 
 ## Funcionalidades
 
