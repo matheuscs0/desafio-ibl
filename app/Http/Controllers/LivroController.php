@@ -26,20 +26,20 @@ class LivroController extends Controller
      * Store a newly created resource in storage.
      */
     public function store(Request $request)
-    {
-        $request->validate([
-            'title' => 'required|string|max:255',
-            'author' => 'required|string|max:255',
-            'isbn' => 'required|string|unique:livros,isbn',
-            'page_count' => 'required|integer',
-            'edition' => 'nullable|string|max:255',
-            'publisher' => 'nullable|string|max:255',
-        ]);
+{
+    $request->validate([
+        'title' => 'required|string|max:255',
+        'author' => 'required|string|max:255',
+        'isbn' => 'required|string|unique:livros,isbn',
+        'page_count' => 'required|integer',
+        'edition' => 'nullable|string|max:255',
+        'publisher' => 'nullable|string|max:255',
+    ]);
 
-        $livro = Livro::create($request->all());
+    Livro::create($request->all());
 
-        return redirect()->route('livros.index')->with('success', 'Livro criado com sucesso!');
-    }
+    return redirect()->route('livros.index')->with('success', 'Livro criado com sucesso!');
+}
 
     /**
      * Display the specified resource.
